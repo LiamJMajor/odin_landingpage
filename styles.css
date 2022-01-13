@@ -1,0 +1,161 @@
+body {
+padding:0px;
+margin:0px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+a {
+    color:unset;
+    text-decoration:none;
+}
+
+.container {
+    display:flex;
+    margin:auto;
+    max-width:1200px;
+}
+
+.header {
+    background-color: #1F2937;
+    color:#f9FAF8;
+    padding:15px;
+}
+
+.logo {
+    font-size:24px;
+    font-weight:bold;
+}
+
+.right-links {
+    margin-left:auto;
+
+    display:flex;
+    gap:20px;
+}
+
+.hero {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    background-color: #1F2937;
+    color:#f9FAF8;
+}
+.hero .container {
+    gap:30px;
+    justify-content:center;
+    align-items:center;
+    flex:auto;
+}
+
+.heroTitle, .heroImage  {
+    width:50%;
+}
+.heroImage img {
+    width:100%;
+    height:auto;
+}
+
+h1 {
+    font-size:48px;
+    font-weight:900;
+}
+
+button {
+    padding: 8px 16px;
+    background-color:#3882F6;
+    border:0px;
+    border-radius:5px;
+    color:white;
+
+}
+
+.section1{
+    padding:15px;
+}
+
+.section1 .container {
+    flex-direction:column;
+}
+
+h2 {
+    text-align:center;
+    font-size:36px;
+    font-weight: 800;
+}
+.items {
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+}
+
+.item {
+    flex-basis: 0;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    border:5px solid #3882F6;
+    border-radius:10px;
+}
+
+.section2 {
+    background: #E5E7EB;
+    padding:15px;
+    min-height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.section2 .container {
+    flex-direction:column;
+}
+.quote {
+    font-size:36px;
+    font-style:italic;
+    font-weight:100;
+}
+.reference {
+    align-self: flex-end;
+    font-weight:500;
+    font-size:18px;
+}
+
+.section3 {
+    padding: 70px 0px;
+}
+
+.section3 .container {
+    background-color:#3882F6;
+    height:100px;
+    justify-content:space-around;
+    align-items:center;
+    color:#fff;
+    border-radius:5px;
+}
+
+.cta {
+    font-size:22px;
+    font-weight:700;
+}
+
+.section3 button {
+    border: #fff solid 2px;
+    padding:5px 30px;
+}
+
+.footer {
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:30px;
+    color:#fff;
+}
